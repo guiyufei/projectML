@@ -1,5 +1,5 @@
 ---
-title: "ML Project"
+title: "Verdigris Project"
 author: "Yufei Gui"
 output: word_document
 ---
@@ -21,7 +21,7 @@ In this part, we found that there is no missing value in the dataset.
 
 ```{r}
 ## Work Directory
-
+setwd("/Users/Victoria_G/Desktop/anomaly detection/MLproject")
 
 ## Read data from local csv files
 data.raw <- read.csv("minutely_power.csv")
